@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3076894-b7f3-45ee-a6a4-9cf2d973efe4" name="Default Changelist" comment="Сделал домашнее задание по теме Singleton и Prototype" />
+    <list default="true" id="b3076894-b7f3-45ee-a6a4-9cf2d973efe4" name="Default Changelist" comment="Сделал домашнее задание по теме Singleton и Prototype">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/TextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/exception/TextValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/CheckErrorContains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/CheckIsDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/CheckSizeText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/ClientProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/CheckLineCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/MyWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/ProxyLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/WriterToFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/prototype/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/prototype/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/singleton/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/singleton/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWork/patterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/patterns/singleton/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -27,7 +47,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="24QBiYLYPsUqt4fIcY9t0OednUj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +57,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/OI&amp;NIO_Ex" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/MyPractice" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -43,13 +69,39 @@
       <recent name="D:\GitTasks\src\homeWork\patterns\singleton\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="ClientProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.proxy.ClientProgram" />
+      <module name="GitTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork.patterns.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork.patterns.prototype.Main" />
       <module name="GitTasks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homeWork.patterns.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.chain_of_responsibility.handlers.Main" />
+      <module name="GitTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork.patterns.chain_of_responsibility.handlers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,8 +124,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.ClientProgram" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643556842457</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал домашнее задание по теме Singleton и Prototype">
+      <created>1643732934949</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643732934949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +167,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал домашнее задание по теме Singleton и Prototype" />

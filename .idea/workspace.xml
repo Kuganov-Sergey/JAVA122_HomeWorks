@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3076894-b7f3-45ee-a6a4-9cf2d973efe4" name="Default Changelist" comment="Сделал домашнее задание по теме Singleton и Prototype">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/TextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/exception/TextValidException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/CheckErrorContains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/CheckIsDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/CheckSizeText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/chain_of_responsibility/handlers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/ClientProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/CheckLineCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/MyWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/ProxyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/ProxyLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/proxy/proxyComponents/WriterToFiles.java" afterDir="false" />
+    <list default="true" id="b3076894-b7f3-45ee-a6a4-9cf2d973efe4" name="Default Changelist" comment="Сделал домашнее задание по теме State, Visitor, TemplateMethod">
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/CreateFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/states/JSONFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/states/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/myExcepion/IncorrectInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/templates/ConcreteTemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/templates/TemplateMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/visitors/SerializationVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/visitors/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/prototype/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/prototype/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/singleton/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GitTasks/homeWork/patterns/singleton/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork/patterns/singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork/patterns/singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/MyPractice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_course" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -69,7 +69,7 @@
       <recent name="D:\GitTasks\src\homeWork\patterns\singleton\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="ClientProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork.patterns.proxy.ClientProgram" />
       <module name="GitTasks" />
@@ -84,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.prototype.Main" />
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.template_method.Main" />
       <module name="GitTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWork.patterns.prototype.*" />
+          <option name="PATTERN" value="homeWork.patterns.template_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.singleton.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.state.Main" />
       <module name="GitTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWork.patterns.singleton.*" />
+          <option name="PATTERN" value="homeWork.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.visitor.Main" />
+      <module name="GitTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork.patterns.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.ClientProgram" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал домашнее задание по теме Singleton и Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал домашнее задание по теме Singleton и Prototype" />
+    <MESSAGE value="Сделал домашнее задание по теме State, Visitor, TemplateMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал домашнее задание по теме State, Visitor, TemplateMethod" />
   </component>
 </project>

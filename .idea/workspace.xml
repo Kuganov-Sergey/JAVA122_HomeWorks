@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3076894-b7f3-45ee-a6a4-9cf2d973efe4" name="Default Changelist" comment="Сделал домашнее задание по теме State, Visitor, TemplateMethod">
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/CreateFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/states/JSONFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/state/states/TextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/myExcepion/IncorrectInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/templates/ConcreteTemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/template_method/templates/TemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/shapes/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/visitors/SerializationVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/visitor/visitors/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20211205.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20211205_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/components/LogText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/components/ThreadRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/components/ThreadWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/context/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/context/ProgramSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/context/SaveFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/lib/json-20211205-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/lib/json-20211205.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GitTasks.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/homeWork/patterns/memento/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -66,23 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitTasks\src\homeWork\patterns\memento\lib" />
       <recent name="D:\GitTasks\src\homeWork\patterns\singleton\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="ClientProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.proxy.ClientProgram" />
-      <module name="GitTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork.patterns.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork.patterns.template_method.Main" />
       <module name="GitTasks" />
@@ -97,24 +83,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.chain_of_responsibility.handlers.Main" />
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.memento.Main" />
       <module name="GitTasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWork.patterns.chain_of_responsibility.handlers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.state.Main" />
-      <module name="GitTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeWork.patterns.state.*" />
+          <option name="PATTERN" value="homeWork.patterns.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +108,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.mediator.Main" />
+      <module name="GitTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork.patterns.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork.patterns.mediator.components.Test1" />
+      <module name="GitTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork.patterns.mediator.components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.ClientProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643732934949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Сделал домашнее задание по теме State, Visitor, TemplateMethod">
+      <created>1644432479081</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644432479081</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

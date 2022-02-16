@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3076894-b7f3-45ee-a6a4-9cf2d973efe4" name="Default Changelist" comment="Сделал домашнее задание по теме State, Visitor, TemplateMethod">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20211205.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20211205_javadoc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/Mediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/components/LogText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/components/ThreadRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/mediator/components/ThreadWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/context/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/context/ProgramSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/context/SaveFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/lib/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/lib/json-20211205-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork/patterns/memento/lib/json-20211205.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GitTasks.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644432479081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Сделал домашнее задание по теме State, Visitor, TemplateMethod">
+      <created>1644519684773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644519684773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

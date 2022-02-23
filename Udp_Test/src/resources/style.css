@@ -1,0 +1,9 @@
+* {
+    -fx-background-color: blanchedalmond;
+    -fx-text-fill: green;
+    -fx-border-color: black;
+}
+
+.button:hover {
+    -fx-background-color: red;
+}
